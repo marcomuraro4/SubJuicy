@@ -1,6 +1,6 @@
 # SubJuicy
 
-SubJuicy is a monophonic synthesizer based on subtractive synthesis featuring four different filters, effects and tremolo controls. The app was developed by means of the following libraries:
+SubJuicy is a monophonic synthesizer based on subtractive synthesis featuring four different filters, effects, tremolo and other controls. The app was developed by means of the following libraries:
 - [Vue.js](https://vuejs.org/)
 - [Tone.js](https://tonejs.github.io/)
 
