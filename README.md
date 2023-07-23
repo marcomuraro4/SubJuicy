@@ -12,7 +12,7 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 
 ## Synth Controls and Graphical User Interface
 
-SubJuicy synthesizer provides the user with different controls sections. In the following all the data controls are shown and explained.
+SubJuicy synthesizer provides the user with different controls sections. In the following, the corresponding parameters for each one of them are shown and explained.
 
 **Sources Controls** </br>
 The user can control three different oscillators and a noise source. Available parameters are:
