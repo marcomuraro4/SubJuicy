@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Righteous&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  font-family: 'Covered by Your Grace', cursive;
+  font-size: 18px;
+  color: white;
+  margin: 8px;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 12px;
+  color: #2897ff;
+  margin: 4px;
+}
+  
+body {
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('./../../assets/img/subjuicy-synth-background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+select {
+  outline: none;
+  padding-left: 8px;
+}
+
+label {
+  color: #2897ff;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

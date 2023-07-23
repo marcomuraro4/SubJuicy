@@ -1,0 +1,57 @@
+.component-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.title-container {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #ffc304;
+}
+
+.controls-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.controls-container {
+    height: 63%;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Covered by Your Grace', cursive;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #db4954;
+}
+
+button:active {
+    background-color: #da6770;
+}
+
+.knob-wrapper {
+    position: relative;
+}
+
+label {
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+}
+
+.unit-of-measure {
+    position: absolute;
+    bottom: 3px;
+}

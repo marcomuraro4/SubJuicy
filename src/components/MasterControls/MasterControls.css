@@ -1,0 +1,33 @@
+.component-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.title-container {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #ffc304;
+}
+
+.controls-wrapper {
+    width: 90%;
+    height: 100%;
+}
+
+.knob-wrapper {
+    position: relative;
+}
+
+label {
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+}
+
+.unit-of-measure {
+    position: absolute;
+    bottom: 3px;
+}
