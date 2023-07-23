@@ -100,14 +100,14 @@ Master controls section enables the user to set:
 </p>
 
 ## App Architecture and State Update
-The app provides different types of controls enabling the user to find the desired parameters configuration and shape the sound as wanted. All the functional blocks integrated in the signal flow of the application were implemented as **Vue components**. The state of the synth is managed and updated within the **SynthDevice** component, which handles *sound generation* and *signal processing* by means of Tone.js library. Each component allows the user to interact with the application and update the parameters related to the corresponding signal processing functional block.  
+The app provides different types of controls enabling the user to find the desired parameters configuration and shape the sound as wanted. All the functional macro-sections integrated in the GUI of the application were implemented as **Vue components**. The state of the synth is managed and updated within the **SynthDevice** component, which handles *sound generation* and *signal processing* by means of Tone.js library. Each controls component allows the user to interact with the application and update the parameters related to the corresponding signal processing functional block.  
 **Vue watchers** are employed in order to emit *stateChange* custom event that is dispatched directly to the parent SynthDevice whenever child component internal data are modified from the GUI. In the parent, every time this event is received, the corresponding event handler automatically triggers **updateState function** which is defined in the methods object and responsible for *state update* based on the parameter name received from the child.
 
 <p align="center">
     <img width="1000" height="auto" alt="Vue App Architecture" src="./assets/SubJuicyAppArchitecture.png">
 </p>
 
-The diagram above shows how the architecture of the application is organized into nested vue components and how parameters are passed from controls components to SynthDevice where the overall synth state is updated. An external Vue component (**vue-three-round-slider** module, imported and used in the app as **RoundSlider** component) was employed to integrate *circular sliders* within the graphical user interface for a more pleasant and comfortable user interaction with the software.
+The diagram above shows how the architecture of the application is organized into nested Vue components and how parameters are passed from controls components to the parent SynthDevice where the overall synth state is updated. An external Vue component, [**vue-three-round-slider**](https://github.com/Artem9989/vue-three-round-slider.git) module (imported and used in the app as **RoundSlider** component), was employed to integrate *circular sliders* within the graphical user interface for a more pleasant and comfortable user interaction with the software.
 
 ## Signal Flow
 
